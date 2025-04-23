@@ -1,4 +1,4 @@
-$('#navto').click(function () {
+$(document).ready(function () {
     const screenAvailWidth = window.screen.availWidth;
     const screenAvailHeight = window.screen.availHeight;
     const SuserAgent = navigator.userAgent.toLowerCase();
@@ -7,7 +7,6 @@ $('#navto').click(function () {
     } else {
         window.location.href = "https://123.com/";
     }
-    console.log(SuserAgent)
 })
 
 
